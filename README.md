@@ -1,308 +1,166 @@
-<h1 align="center">🔥 FREE FIRE UID TO INFORMATION API 🔥</h1>
+# 📂 FREE FIRE INFO API  
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=4000&color=00FFB3&center=true&vCenter=true&width=600&lines=FREE+FIRE+UID+TO+INFO+API+OB53;FAST+%7C+SECURE+%7C+POWERFUL;MADE+BY+URxFF+%F0%9F%91%91">
-</p>
+## Supported Regions  
+```json  
+["IND", "BR", "SG", "RU", "ID", "TW", "US", "VN", "TH", "ME", "PK", "CIS", "BD", "NA", "SAC", "EU"]  
+```  
 
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ACTIVE-success?style=for-the-badge">
-  <img src="https://img.shields.io/badge/VERSION-OB53-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/API-SUPERFAST⚡-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/MADE%20BY-URxFF-red?style=for-the-badge">
-</p>
+## Example API Request  
+```plaintext  
+https://gst-info.vercel.app/player-info?region=SG&uid=338277714  
+```  
 
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7TKsQ8UQf3K7l5b2/giphy.gif" width="600">
-</p>
+## Example Response  
+```json  
+{  
+    "basicInfo": {  
+        "accountId": "338277714",  
+        "accountType": 1,  
+        "nickname": "Duy Vinh",  
+        "region": "VN",  
+        "level": 69,  
+        "exp": 2696267,  
+        "bannerId": 901000089,  
+        "headPic": 902000094,  
+        "rank": 323,  
+        "rankingPoints": 4703,  
+        "badgeCnt": 41,  
+        "badgeId": 1001000085,  
+        "seasonId": 45,  
+        "liked": 43010,  
+        "lastLoginAt": "1749865935",  
+        "csRank": 317,  
+        "csRankingPoints": 69,  
+        "weaponSkinShows": [  
+            907101304  
+        ],  
+        "pinId": 910002803,  
+        "maxRank": 323,  
+        "csMaxRank": 317,  
+        "accountPrefers": {  
+            "brPregameShowChoices": [  
+                1  
+            ]  
+        },  
+        "createAt": "1533628526",  
+        "title": 904090026,  
+        "externalIconInfo": {  
+            "status": "ExternalIconStatus_NOT_IN_USE",  
+            "showType": "ExternalIconShowType_FRIEND"  
+        },  
+        "releaseVersion": "OB49",  
+        "showBrRank": true,  
+        "showCsRank": true,  
+        "socialHighLightsWithBasicInfo": {}  
+    },  
+    "profileInfo": {  
+        "avatarId": 102000004,  
+        "skinColor": 33,  
+        "clothes": [  
+            205049027,  
+            214045000,  
+            203000485,  
+            204000267,  
+            211000240  
+        ],  
+        "equipedSkills": [  
+            16,  
+            5801,  
+            8,  
+            1,  
+            16,  
+            304,  
+            8,  
+            2,  
+            16,  
+            2506,  
+            8,  
+            3,  
+            16,  
+            5201  
+        ],  
+        "isSelected": true,  
+        "isSelectedAwaken": true  
+    },  
+    "clanBasicInfo": {  
+        "clanId": "3067571084",  
+        "clanName": "Rắn Độc fi5",  
+        "captainId": "1389031980",  
+        "clanLevel": 3,  
+        "capacity": 55,  
+        "memberNum": 23  
+    },  
+    "captainBasicInfo": {  
+        "accountId": "1389031980",  
+        "accountType": 1,  
+        "nickname": "Exanimateᴗ",  
+        "region": "VN",  
+        "level": 81,  
+        "exp": 7457894,  
+        "bannerId": 901029016,  
+        "headPic": 902000022,  
+        "rank": 318,  
+        "rankingPoints": 3053,  
+        "badgeCnt": 62,  
+        "badgeId": 1001000085,  
+        "seasonId": 45,  
+        "liked": 29306,  
+        "lastLoginAt": "1749843937",  
+        "csRank": 322,  
+        "csRankingPoints": 114,  
+        "weaponSkinShows": [  
+            907192607,  
+            912034003  
+        ],  
+        "pinId": 910002901,  
+        "maxRank": 318,  
+        "csMaxRank": 322,  
+        "accountPrefers": {},  
+        "createAt": "1567648917",  
+        "title": 904590058,  
+        "externalIconInfo": {  
+            "status": "ExternalIconStatus_NOT_IN_USE",  
+            "showType": "ExternalIconShowType_FRIEND"  
+        },  
+        "releaseVersion": "OB49",  
+        "showBrRank": true,  
+        "showCsRank": true,  
+        "socialHighLightsWithBasicInfo": {}  
+    },  
+    "petInfo": {  
+        "id": 1300000041,  
+        "name": "Duy　Vinh",  
+        "level": 7,  
+        "exp": 6015,  
+        "isSelected": true,  
+        "skinId": 1310000044,  
+        "selectedSkillId": 1315000012  
+    },  
+    "socialInfo": {  
+        "accountId": "338277714",  
+        "language": "Language_VIETNAMESE",  
+        "signature": "Mùa hè đã đến k12 có míc",  
+        "rankShow": "RankShow_BR"  
+    },  
+    "diamondCostRes": {  
+        "diamondCost": 390  
+    },  
+    "creditScoreInfo": {  
+        "creditScore": 100,  
+        "rewardState": "REWARD_STATE_UNCLAIMED",  
+        "periodicSummaryEndTime": "1749773520"  
+    }  
+}  
+```  
 
----
+## Getting Started  
 
-<h2 align="center">🚀 Powerful Free Fire Player Info API</h2>
+### Clone the Repository  
+To clone the repository, run the following command:  
+```bash  
+git clone https://github.com/duyvinh09/FreeFireInfoSite.git  
+```  
 
-<p align="center">
-🔥 Fetch Full Player Data using UID  
-⚡ Lightning Fast Response  
-🌍 Multi Region Support  
-🔐 Secure System  
-</p>
-
----
-
-## 📌 ✨ Features
-
-- ✅ UID se full player information fetch  
-- 🌍 Multi-region support (IND, BR, US, SG, etc.)  
-- ⚡ Ultra fast response (with caching)  
-- 🔄 Auto token refresh system  
-- 🔐 AES Encryption + Protobuf system  
-- 📦 Clean & structured JSON response  
-- 🧠 Smart UID region detection  
-
----
-
-## 📡 🚀 API Endpoint
-
-```
-/player-info?uid=YOUR_UID
-```
-
-### 🧾 Example
-
-```
-http://localhost:5000/player-info?uid=1844109412
-```
-
----
-
-## 📥 📊 Sample Response
-
-```json
-{
-  "basicInfo": {
-    "accountId": "1844109412",
-    "accountType": 1,
-    "nickname": "ᗅsʜɪsʜ",
-    "region": "IND",
-    "level": 69,
-    "exp": 2650226,
-    "bannerId": 901000012,
-    "headPic": 902000004,
-    "rank": 326,
-    "rankingPoints": 7040,
-    "badgeCnt": 35,
-    "badgeId": 1001000095,
-    "seasonId": 50,
-    "liked": 46598,
-    "showRank": true,
-    "lastLoginAt": "1776152501",
-    "csRank": 318,
-    "csRankingPoints": 76,
-    "weaponSkinShows": [
-      907103429,
-      912000001
-    ],
-    "pinId": 910000005,
-    "maxRank": 326,
-    "csMaxRank": 318,
-    "accountPrefers": {
-      "brPregameShowChoices": [
-        1
-      ]
-    },
-    "createAt": "1584203139",
-    "title": 904090026,
-    "externalIconInfo": {
-      "status": "ExternalIconStatus_NOT_IN_USE",
-      "showType": "ExternalIconShowType_FRIEND"
-    },
-    "releaseVersion": "OB53",
-    "showBrRank": true,
-    "showCsRank": true,
-    "socialHighLightsWithBasicInfo": {}
-  },
-  "profileInfo": {
-    "avatarId": 102000004,
-    "skinColor": 100,
-    "clothes": [
-      203000253,
-      214000023,
-      204000692,
-      205000157,
-      211000196
-    ],
-    "equipedSkills": [
-      16,
-      5601,
-      8,
-      1,
-      16,
-      2506,
-      8,
-      2,
-      16,
-      7506,
-      8,
-      3,
-      16,
-      5301
-    ],
-    "isSelected": true,
-    "isSelectedAwaken": true
-  },
-  "clanBasicInfo": {
-    "clanId": "3037909598",
-    "clanName": "URxFF",
-    "captainId": "1844109412",
-    "clanLevel": 6,
-    "capacity": 55,
-    "memberNum": 49
-  },
-  "captainBasicInfo": {
-    "accountId": "1844109412",
-    "accountType": 1,
-    "nickname": "ᗅsʜɪsʜ",
-    "region": "IND",
-    "level": 69,
-    "exp": 2650226,
-    "bannerId": 901000012,
-    "headPic": 902000004,
-    "rank": 326,
-    "rankingPoints": 7040,
-    "badgeCnt": 35,
-    "badgeId": 1001000095,
-    "seasonId": 50,
-    "liked": 46598,
-    "showRank": true,
-    "lastLoginAt": "1776152501",
-    "csRank": 318,
-    "csRankingPoints": 76,
-    "weaponSkinShows": [
-      907103429,
-      912000001
-    ],
-    "pinId": 910000005,
-    "maxRank": 326,
-    "csMaxRank": 318,
-    "accountPrefers": {
-      "brPregameShowChoices": [
-        1
-      ]
-    },
-    "createAt": "1584203139",
-    "title": 904090026,
-    "externalIconInfo": {
-      "status": "ExternalIconStatus_NOT_IN_USE",
-      "showType": "ExternalIconShowType_FRIEND"
-    },
-    "releaseVersion": "OB53",
-    "showBrRank": true,
-    "showCsRank": true,
-    "socialHighLightsWithBasicInfo": {}
-  },
-  "petInfo": {
-    "id": 1300000125,
-    "level": 4,
-    "exp": 540,
-    "isSelected": true,
-    "skinId": 1310000252,
-    "selectedSkillId": 1315000024
-  },
-  "socialInfo": {
-    "accountId": "1844109412",
-    "language": "Language_EN",
-    "signature": "[B][C][0088CC]YT/TG:   @Unknown_Reason",
-    "rankShow": "RankShow_CS"
-  },
-  "diamondCostRes": {
-    "diamondCost": 390
-  },
-  "creditScoreInfo": {
-    "creditScore": 100,
-    "periodicSummaryEndTime": "1776000951"
-  }
-}
-```
-
----
-
-## ⚙️ 🛠 Terminal Installation & Setup
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/ashishyadav210/FF-UID-TO-INFO-API.git
-cd FF-UID-TO-INFO-API
-```
-
-### 2️⃣ Install Requirements
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3️⃣ Run Server
-
-```bash
-python app.py
-```
-
-🌐 Server Start:
-
-```
-http://localhost:5000
-```
-
----
-
-## 🔑 ⚠️ IMPORTANT: Guest Account Setup
-
-👉 API chalane ke liye **Guest Account REQUIRED hai**
-
-### 🔧 Replace this in code:
-
-```
-ENTER YOU GUEST ACCOUNT UID
-ENTER YOUR GUEST ACCOUNT PASSWORD
-```
-
-
----
-
-## 📂 📁 Project Structure
-
-```
-📁 freefire-api
- ┣ 📄 app.py
- ┣ 📄 requirements.txt
- ┣ 📁 proto/
- ┗ 📄 README.md
-```
-
----
-
-## ⚡ 🚀 Tech Stack
-
-- 🐍 Python (Flask)  
-- 🌐 httpx (Async Requests)  
-- 🔐 AES Encryption  
-- 📦 Protobuf  
-- ⚡ Cachetools  
-
----
-
-## 📊 ⚡ Performance
-
-- ⚡ Speed: 200ms – 800ms  
-- 🔁 Cache: 5 Minutes TTL  
-- 🌍 Auto region detection enabled  
-
----
-
-## ⚠️ 🚨 Disclaimer
-
-> ❗ This project is for educational purposes only  
-> ❗ Not affiliated with Garena  
-
----
-
-## 👑 💻 Developer
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Unknown%20Reason-OWNER-blue?style=for-the-badge">
-</p>
-
-<p align="center">
-📢 Telegram / YouTube: @Unknown_Reason  
-</p>
-
----
-
-## ⭐ ❤️ Support
-
-<p align="center">
-⭐ Star karo • 🍴 Fork karo • 📢 Share karo  
-</p>
-
----
-
-<h2 align="center">🔥 MADE WITH ❤️ BY URxFF 🔥</h2>
+### Deploy via Vercel  
+You can deploy the project using the link below:  
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/duyvinh09/FreeFireInfoSite)  
